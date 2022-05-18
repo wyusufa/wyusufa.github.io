@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Some Title</title>
-    <link>https://wyusufa.github.io/</link>
-    <description>Recent content on Some Title</description>
+    <title>github on Some Title</title>
+    <link>https://wyusufa.github.io/tags/github/</link>
+    <description>Recent content in github on Some Title</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://wyusufa.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://wyusufa.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build Static Website With Hugo and Github Pages </title>
       <link>https://wyusufa.github.io/posts/tutorial-hugo-blog/</link>
@@ -14,16 +14,6 @@
       
       <guid>https://wyusufa.github.io/posts/tutorial-hugo-blog/</guid>
       <description>introduction A static website is one with stable content where every user sees the exact same thing on each individual page. There are tools to build static website, such as wordpress, hugo, jekyll, etc. In this tutorial i want to explain how to use Hugo to build static website. After you build the static website, you need to host it online. There are many services that help you to host your website online, either paid or free, such as netlify, github pages, heroku, etc.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://wyusufa.github.io/about/</link>
-      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://wyusufa.github.io/about/</guid>
-      <description>About me CV | Linkedin | Github | HackerRank
-My name is Wanda Yusuf Alvian (nickname : Yusuf) and I am a self taught programmer. Even though I claimed myself as self taught, i have been enrolled in CS Graduate Program University of Gadjah Mada to learn fundamental of CS. I enjoy my learning experience there and finish 41 credits with 3.95 GPA, but without a degree because i didn&amp;rsquo;t finish my thesis.</description>
     </item>
     
   </channel>

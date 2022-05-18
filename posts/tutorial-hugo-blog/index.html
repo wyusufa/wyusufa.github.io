@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  
+  <meta name="description" content="Some description">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://wyusufa.github.io/apple-touch-icon.png">
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="https://wyusufa.github.io/favicon-32x32.png">
+
+  
+  <link rel="icon" type="image/png" sizes="16x16" href="https://wyusufa.github.io/favicon-16x16.png">
+
+  
+  <link rel="manifest" href="https://wyusufa.github.io/site.webmanifest">
+
+  
+  <link rel="mask-icon" href="https://wyusufa.github.io/safari-pinned-tab.svg" color="#5bbad5">
+
+  <meta name="msapplication-TileColor" content="#da532c">
+
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <link rel="stylesheet" href="https://wyusufa.github.io/css/bootstrap.min.css" />
+
+  
+  <title>Build Static Website With Hugo and Github Pages  | Some Title</title>
+  
+
+  <style>
+body {
+  min-width: 300px;
+}
+
+.custom-navbar {
+  margin-bottom: 1em;
+  height: 60px;
+}
+
+.custom-navbar a {
+  display: inline-block; 
+  padding: 18px 0;
+  margin-right: 1em; 
+  font-weight: bold; 
+}
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  text-decoration: none; 
+}
+
+@media print {
+  .custom-navbar {
+    display: none;
+  }
+}
+
+article {
+  padding-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  background-color: #fff;
+}
+
+
+
+body {
+  color: #212529;
+}
+
+
+
+a {
+  color: #007bff;
+}
+
+
+
+a:hover,
+a:focus {
+  color: #0056b3;
+}
+
+
+
+.custom-navbar {
+  background-color: #212529;
+}
+
+
+
+.custom-navbar a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+
+
+.container {
+  max-width: 800px;
+}
+
+
+
+pre {
+  display: block;
+  padding: 9.5px;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+code {
+  padding: 2px 4px;
+  color: inherit; 
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: .9em;
+}
+
+
+
+blockquote,
+.blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 1em;
+  border-left: 5px solid #6c757d;
+}
+
+</style>
+</head>
+
+<body>
+  <nav class="custom-navbar">
+  <div class="container">
+    
+    <a href="/">Posts</a>
+    
+    <a href="/tags/">Tags</a>
+    
+    <a href="/about/">About</a>
+    
+    <a href="/index.xml">RSS</a>
+    
+  </div>
+</nav>
+  
+  <div class="container">
+    <article>
+      <h1>Build Static Website With Hugo and Github Pages</h1>
+<h3 id="introduction">introduction</h3>
+<p>A static website is one with stable content where every user sees the exact same thing on each individual page. There are tools to build static website, such as wordpress, hugo, jekyll, etc. In this tutorial i want to explain how to use <a href="https://gohugo.io/">Hugo</a> to build static website. After you build the static website, you need to host it online. There are many services that help you to host your website online, either paid or free, such as netlify, github pages, heroku, etc. In this tutorial, i want to explain how you to use <a href="https://pages.github.com/">github pages</a> to host your website.</p>
+<h3 id="step-1--install-hugo">step 1 : install hugo</h3>
+<p>Installing hugo in linux or macos is straightforward  , you can follow <a href="https://gohugo.io/getting-started/quick-start/">this instruction</a>.</p>
+<p>Installing hugo in windows is not that straightforward. First, you have to download the latest release of Hugo from <a href="https://github.com/gohugoio/hugo/releases">their official download page</a>, scroll down and download zip files for windows (example : hugo_0.99.0_Windows-64bit.zip). After that, extract the zip file to <code>C:\Hugo\bin</code> . Next, you need to set an environment variable. These are steps to do that :</p>
+<ul>
+<li>open search bar in bottom left corner your screen</li>
+<li>look for <code>Edit the system environment variables</code> and open it</li>
+<li>in <code>Advanced</code> tab, click <code>Environment Variables</code></li>
+<li>in the top half box, search for <code>Path</code> and then double click on that.</li>
+<li>click <code>new</code> and then type the path of extracted hugo file, in this case is <code>C:\Hugo\bin</code> and then click <code>ok</code></li>
+</ul>
+<p>To test the installation, open up your terminal and then type <code>hugo version</code>. If your installation is success, you should get back information about hugo version that has been installed.</p>
+<h3 id="step-2--build-your-site-locally">step 2 : build your site locally</h3>
+<p>First, you should go to the directory where you want to save your website. Let say i want to build my website in <code>C:\Git</code> in folder <code>mysite</code>, i will open terminal and type :</p>
+<pre><code>cd C:\Git
+hugo new site mysite
+</code></pre><p>After that, the website is successfully built in <code>C:\Git\mysite</code> and you will see many files there, the three most important are <code>content</code> folder, <code>themes</code> folder, and <code>config.toml</code>. You write the content of your website in <code>content</code> folder, you choose theme for your website in <code>themes</code> folder, and you configure your website according to theme you used in <code>config.toml</code>.</p>
+<p>Until this step, you can&rsquo;t see your website yet because you have not chosen theme. So, now you should choose theme, in this tutorial i will use <a href="https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme">this theme</a> as example.</p>
+<p>From the root of your website folder, type :</p>
+<pre><code>git init
+git submodule add https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git themes/minimal-bootstrap-hugo-theme
+</code></pre><p>Next, copy the <code>config.toml</code> in <code>C:\Git\mysite\themes\minimal-bootstrap-hugo-theme\exampleSite</code> to <code>config.toml</code> in <code>C:\Git\mysite</code>. What you do here is you copy the configuration of exampleSite from minimal-bootstrap-hugo-theme to your hugo website folder. If you want advance configuration, you need to read documentation of the theme you use. Usually, a theme has <code>exampleSite</code> folder with its <code>config.toml</code> inside it.</p>
+<p>Back to root of your website in terminal and then type <code>hugo</code> to build your website and then type <code>hugo server</code> to open your website locally. After you type <code>hugo server</code> there will be localhost address in your terminal, <code>left click + ctrl</code> to open it and your website will be open in browser.</p>
+<h3 id="step-3--deploy-to-git-pages">step 3 : deploy to git pages</h3>
+<p>After you successfully run your website locally, next step is deploying your website online using <code>git pages</code>.</p>
+<p>iIn the previous step, after you type <code>hugo</code> in root folder of your website, you will notice that there is new folder <code>public</code> appear. This is the rendered version of your website and we only need this folder and anything contain in it to used in github pages. Remember that when you update your website, you need to type <code>hugo</code> in root folder to update the rendered folder in <code>public</code> folder.</p>
+<p>I hope you have already have github account in this moment. To create github pages for your website, first create new repository in github with repository name using your github username and don&rsquo;t initiate with README.md. After your repository have been created, go back to your root directory of your website in your computer terminal and type :</p>
+<pre><code>cd public 
+git init 
+git add .
+git remote add origin https://github.com/username/username.github.io
+git commit -m &quot;first commit&quot; 
+git push origin master 
+</code></pre><p>Remember to change username with your github username. After successfully committed, now finally you can access your website in username.github.io.</p>
+
+    </article>
+  </div>
+
+  
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  
+
+  
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#216942",
+      "text": "#b2d192"
+    },
+    "button": {
+      "background": "#afed71"
+    }
+  }
+})});
+</script>
+
+</body>
+
+</html>
