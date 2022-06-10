@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Some Title</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://wyusufa.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://wyusufa.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily Update on My Journey to Get SWE Job</title>
+      <link>https://wyusufa.github.io/posts/road-to-swe-job/</link>
+      <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://wyusufa.github.io/posts/road-to-swe-job/</guid>
+      <description>In this post I will write my daily progress to get a job or internship as software engineer (backend).
+Day 1 Friday, 10 June 2022
+ DSA : review big O notation from Cracking Coding Interview Book learning :  learn java from jetbrains academy learn git and github from udemy course   project : start exploring for my first mini project job search : update my CV  </description>
+    </item>
+    
     <item>
       <title>Build Static Website With Hugo and Github Pages </title>
       <link>https://wyusufa.github.io/posts/tutorial-hugo-blog/</link>

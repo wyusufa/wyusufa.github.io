@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wyusufa.github.io/posts/road-to-swe-job/</loc>
+    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wyusufa.github.io/tags/personal/</loc>
+    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wyusufa.github.io/posts/</loc>
+    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wyusufa.github.io/</loc>
+    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wyusufa.github.io/tags/</loc>
+    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wyusufa.github.io/posts/tutorial-hugo-blog/</loc>
     <lastmod>2022-05-17T00:00:00+00:00</lastmod>
   </url>
@@ -14,21 +39,6 @@
   
   <url>
     <loc>https://wyusufa.github.io/tags/hugo/</loc>
-    <lastmod>2022-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wyusufa.github.io/posts/</loc>
-    <lastmod>2022-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wyusufa.github.io/</loc>
-    <lastmod>2022-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wyusufa.github.io/tags/</loc>
     <lastmod>2022-05-17T00:00:00+00:00</lastmod>
   </url>
   
