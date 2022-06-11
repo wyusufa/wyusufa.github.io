@@ -34,13 +34,7 @@
   <link rel="stylesheet" href="https://wyusufa.github.io/css/bootstrap.min.css" />
 
   
-  
-  
-    
-      
-    
-  
-  <title>Posts | Some Title</title>
+  <title>Integrate Sublime in Git Bash (Windows) | Some Title</title>
   
 
   <style>
@@ -189,69 +183,24 @@ blockquote,
   
   <div class="container">
     <article>
-      
-
-  
-    
-  
-
-<h1>Posts</h1>
-
-
-
-  <p>
-    <a href="https://wyusufa.github.io/posts/integrate-sublime-in-gitbash/">Integrate Sublime in Git Bash (Windows)</a>
-    
-    
-    <br>
-    <small class="text-secondary">Jun 11, 2022</small>
-    
-
-<small><code><a href="https://wyusufa.github.io/tags/sublime">sublime</a></code></small>
-
-
-<small><code><a href="https://wyusufa.github.io/tags/tutorial">tutorial</a></code></small>
-
-
-<small><code><a href="https://wyusufa.github.io/tags/git-bash">git bash</a></code></small>
-
-
-<small><code><a href="https://wyusufa.github.io/tags/windows">windows</a></code></small>
-
-    
-  </p>
-
-  <p>
-    <a href="https://wyusufa.github.io/posts/road-to-swe-job/">Daily Update on My Journey to Get SWE Job</a>
-    
-    
-    <br>
-    <small class="text-secondary">Jun 10, 2022</small>
-    
-
-<small><code><a href="https://wyusufa.github.io/tags/personal">personal</a></code></small>
-
-    
-  </p>
-
-  <p>
-    <a href="https://wyusufa.github.io/posts/tutorial-hugo-blog/">Build Static Website With Hugo and Github Pages</a>
-    
-    
-    <br>
-    <small class="text-secondary">May 17, 2022</small>
-    
-
-<small><code><a href="https://wyusufa.github.io/tags/hugo">hugo</a></code></small>
-
-
-<small><code><a href="https://wyusufa.github.io/tags/tutorial">tutorial</a></code></small>
-
-
-<small><code><a href="https://wyusufa.github.io/tags/github">github</a></code></small>
-
-    
-  </p>
+      <h1>Integrate Sublime in Git Bash (Windows)</h1>
+<p>the default terminal in git bash is vim. We can change it to sublime.</p>
+<ul>
+<li>open <a href="https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config">change editor section in git docs</a></li>
+<li>scroll down to Sublime Text (Windows 64-bit). Copy the git command on the right : <code>git config --global core.editor &quot;'C:\Program Files\Sublime Text\sublime_text.exe' -w&quot;</code>. Don&rsquo;t forget to change the sublime text directory path according to where you install sublime text in your machine.</li>
+</ul>
+<p>after this, everytime you want to change commit message by typing <code>git commit</code>, the sublime text editor will be opened.</p>
+<p>next, how to open file or folder in git bash using sublime text? here what you need to do :</p>
+<ul>
+<li>open notepad and then write this :</li>
+</ul>
+<pre><code>#!/bin/sh
+&quot;C:\Program Files\Sublime Text\sublime_text.exe&quot; $1 &amp;
+</code></pre><ul>
+<li>save that file with name <code>subl</code> <a href="https://www.techwalla.com/articles/how-to-create-a-file-without-an-extension-with-notepad">without extension</a></li>
+<li>copy paste that file in <code>C:\Program Files\Git\usr\bin</code></li>
+<li>open git bash and then type <code>subl</code> followed by file name or directory name</li>
+</ul>
 
     </article>
   </div>

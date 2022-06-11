@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on Some Title</title>
+    <link>https://wyusufa.github.io/tags/windows/</link>
+    <description>Recent content in windows on Some Title</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://wyusufa.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrate Sublime in Git Bash (Windows)</title>
+      <link>https://wyusufa.github.io/posts/integrate-sublime-in-gitbash/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://wyusufa.github.io/posts/integrate-sublime-in-gitbash/</guid>
+      <description>the default terminal in git bash is vim. We can change it to sublime.
+ open change editor section in git docs scroll down to Sublime Text (Windows 64-bit). Copy the git command on the right : git config --global core.editor &amp;quot;&#39;C:\Program Files\Sublime Text\sublime_text.exe&#39; -w&amp;quot;. Don&amp;rsquo;t forget to change the sublime text directory path according to where you install sublime text in your machine.  after this, everytime you want to change commit message by typing git commit, the sublime text editor will be opened.</description>
+    </item>
+    
+  </channel>
+</rss>
