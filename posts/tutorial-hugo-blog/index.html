@@ -197,26 +197,26 @@ blockquote,
 <p>To test the installation, open up your terminal and then type <code>hugo version</code>. If your installation is success, you should get back information about hugo version that has been installed.</p>
 <h3 id="step-2--build-your-site-locally">step 2 : build your site locally</h3>
 <p>First, you should go to the directory where you want to save your website. Let say i want to build my website in <code>C:\Git</code> in folder <code>mysite</code>, i will open terminal and type :</p>
-<pre><code>cd C:\Git
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd"><span style="color:#66d9ef">cd</span> C:\Git
 hugo new site mysite
-</code></pre><p>After that, the website is successfully built in <code>C:\Git\mysite</code> and you will see many files there, the three most important are <code>content</code> folder, <code>themes</code> folder, and <code>config.toml</code>. You write the content of your website in <code>content</code> folder, you choose theme for your website in <code>themes</code> folder, and you configure your website according to theme you used in <code>config.toml</code>.</p>
+</code></pre></div><p>After that, the website is successfully built in <code>C:\Git\mysite</code> and you will see many files there, the three most important are <code>content</code> folder, <code>themes</code> folder, and <code>config.toml</code>. You write the content of your website in <code>content</code> folder, you choose theme for your website in <code>themes</code> folder, and you configure your website according to theme you used in <code>config.toml</code>.</p>
 <p>Until this step, you can&rsquo;t see your website yet because you have not chosen theme. So, now you should choose theme, in this tutorial i will use <a href="https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme">this theme</a> as example.</p>
 <p>From the root of your website folder, type :</p>
-<pre><code>git init
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">git init
 git submodule add https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git themes/minimal-bootstrap-hugo-theme
-</code></pre><p>Next, copy the <code>config.toml</code> in <code>C:\Git\mysite\themes\minimal-bootstrap-hugo-theme\exampleSite</code> to <code>config.toml</code> in <code>C:\Git\mysite</code>. What you do here is you copy the configuration of exampleSite from minimal-bootstrap-hugo-theme to your hugo website folder. If you want advance configuration, you need to read documentation of the theme you use. Usually, a theme has <code>exampleSite</code> folder with its <code>config.toml</code> inside it.</p>
+</code></pre></div><p>Next, copy the <code>config.toml</code> in <code>C:\Git\mysite\themes\minimal-bootstrap-hugo-theme\exampleSite</code> to <code>config.toml</code> in <code>C:\Git\mysite</code>. What you do here is you copy the configuration of exampleSite from minimal-bootstrap-hugo-theme to your hugo website folder. If you want advance configuration, you need to read documentation of the theme you use. Usually, a theme has <code>exampleSite</code> folder with its <code>config.toml</code> inside it.</p>
 <p>Back to root of your website in terminal and then type <code>hugo</code> to build your website and then type <code>hugo server</code> to open your website locally. After you type <code>hugo server</code> there will be localhost address in your terminal, <code>left click + ctrl</code> to open it and your website will be open in browser.</p>
 <h3 id="step-3--deploy-to-git-pages">step 3 : deploy to git pages</h3>
 <p>After you successfully run your website locally, next step is deploying your website online using <code>git pages</code>.</p>
 <p>iIn the previous step, after you type <code>hugo</code> in root folder of your website, you will notice that there is new folder <code>public</code> appear. This is the rendered version of your website and we only need this folder and anything contain in it to used in github pages. Remember that when you update your website, you need to type <code>hugo</code> in root folder to update the rendered folder in <code>public</code> folder.</p>
 <p>I hope you have already have github account in this moment. To create github pages for your website, first create new repository in github with repository name using your github username and don&rsquo;t initiate with README.md. After your repository have been created, go back to your root directory of your website in your computer terminal and type :</p>
-<pre><code>cd public 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd"><span style="color:#66d9ef">cd</span> public 
 git init 
 git add .
 git remote add origin https://github.com/username/username.github.io
-git commit -m &quot;first commit&quot; 
+git commit -m <span style="color:#e6db74">&#34;first commit&#34;</span> 
 git push origin master 
-</code></pre><p>Remember to change username with your github username. After successfully committed, now finally you can access your website in username.github.io.</p>
+</code></pre></div><p>Remember to change username with your github username. After successfully committed, now finally you can access your website in username.github.io.</p>
 
 <p align="center"><small>&#128513;Yusuf, 2022</small> </p>
     </article>
