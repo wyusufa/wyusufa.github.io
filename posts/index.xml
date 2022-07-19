@@ -15,7 +15,7 @@
       <guid>https://wyusufa.github.io/posts/two-d-array-java/</guid>
       <description>Each time i am working with 2D arraylist in Java, I always google it and it takes a while to find the simplest implementation. Rather than spend a few minutes in the future each time i have to implement 2D arraylist in Java, i rather write it down.
 Here it is :
-List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; arr = new ArrayList&amp;lt;&amp;gt;(); arr.add(Arrays.asList(1,2,3)); arr.add(Arrays.asList(4,5,6)); arr.add(Arrays.asList(9,8,9)); </description>
+List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; arr = new ArrayList&amp;lt;&amp;gt;(); arr.add(Arrays.asList(1,2,3)); arr.add(Arrays.asList(4,5,6)); arr.add(Arrays.asList(9,8,9)); Projectsss : ddddd spring-boot dfdf</description>
     </item>
     
     <item>

@@ -15,7 +15,7 @@
       <guid>https://wyusufa.github.io/posts/two-d-array-java/</guid>
       <description>Each time i am working with 2D arraylist in Java, I always google it and it takes a while to find the simplest implementation. Rather than spend a few minutes in the future each time i have to implement 2D arraylist in Java, i rather write it down.
 Here it is :
-List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; arr = new ArrayList&amp;lt;&amp;gt;(); arr.add(Arrays.asList(1,2,3)); arr.add(Arrays.asList(4,5,6)); arr.add(Arrays.asList(9,8,9)); </description>
+List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; arr = new ArrayList&amp;lt;&amp;gt;(); arr.add(Arrays.asList(1,2,3)); arr.add(Arrays.asList(4,5,6)); arr.add(Arrays.asList(9,8,9)); Projectsss : ddddd spring-boot dfdf</description>
     </item>
     
     <item>
@@ -49,6 +49,16 @@ looking for a job as software engineer (backend)
 java springboot SQL javascript python
 what i do at the moment :
  backend engineer intern @investree indonesia enroll in IDCamp backend bootcamp enroll in jetbrain academy prepare for tech interview (DSA). My favorite resources : hackerrank.com, cracking coding interview (book), and elements of programming interview (book) learning about database, SQL, and anything related to backend  I believe that a good programmer is someone who can master any technology quickly to solve problem using computer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wyusufa.github.io/repo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wyusufa.github.io/repo/</guid>
+      <description>my code repositories with explanation in README and documentation in source code. writing explanation and documentation is extremely helpful for me to make sure that i fully understand the code that i write and easily read my own code in the future.
+ hello-world-springboot : get &amp;ldquo;hello world&amp;rdquo; in browser using HTTP GET using springboot, understand how to create springboot app and run it spring-boot java  </description>
     </item>
     
   </channel>
