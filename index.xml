@@ -53,12 +53,12 @@ what i do at the moment :
     
     <item>
       <title></title>
-      <link>https://wyusufa.github.io/repo/</link>
+      <link>https://wyusufa.github.io/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wyusufa.github.io/repo/</guid>
-      <description>my code repositories with explanation in README and documentation in source code. writing explanation and documentation is extremely helpful for me to make sure that i fully understand the code that i write and easily read my own code in the future.
-code {font-family: Consolas,&#34;courier new&#34;;color: black;background-color: #A52A2A;padding: 3px;font-size: 105%;} hello-world-springboot : get &amp;ldquo;hello world&amp;rdquo; in browser using HTTP GET using springboot, understand how to create springboot app and run it.</description>
+      <guid>https://wyusufa.github.io/project/</guid>
+      <description>each of my project always contain clear explanation in README and documentation in source code. writing explanation and documentation is extremely helpful for me to make sure that i fully understand the code that i write and easily read my own code in the future.
+ hello-world-springboot : get &amp;ldquo;hello world&amp;rdquo; in browser using HTTP GET using springboot, understand how to create springboot app and run it. springboot, java  </description>
     </item>
     
   </channel>
