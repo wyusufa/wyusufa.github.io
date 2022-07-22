@@ -43,12 +43,10 @@ List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; arr = new ArrayList&amp;lt;&amp;
       <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://wyusufa.github.io/about/</guid>
-      <description>Github | CV | Linkedin | HackerRank
-Wanda Yusuf Alvian, a self taught programmer
-looking for a job as software engineer (backend)
+      <description>Wanda Yusuf Alvian =&amp;gt; [Github | CV | Linkedin | HackerRank]
 java springboot SQL javascript python
 what i do at the moment :
- backend engineer intern @investree indonesia enroll in IDCamp backend bootcamp enroll in jetbrain academy prepare for tech interview (DSA). My favorite resources : hackerrank.com, cracking coding interview (book), and elements of programming interview (book) learning about database, SQL, and anything related to backend  I believe that a good programmer is someone who can master any technology quickly to solve problem using computer.</description>
+ backend engineer intern @investree indonesia enroll in IDCamp backend bootcamp enroll in jetbrain academy prepare for tech interview (DSA). My favorite resources : hackerrank.com, cracking coding interview (book), and elements of programming interview (book) learning about database, SQL, and anything related to backend looking for a job as software engineer (backend)  I believe that a good programmer is someone who can master any technology quickly to solve problem using computer.</description>
     </item>
     
     <item>
@@ -57,8 +55,8 @@ what i do at the moment :
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wyusufa.github.io/project/</guid>
-      <description>each of my project always contain clear explanation in README and documentation in source code. writing explanation and documentation is extremely helpful for me to make sure that i fully understand the code that i write and easily read my own code in the future.
- hello-world-springboot : get &amp;ldquo;hello world&amp;rdquo; in browser using HTTP GET using springboot, understand how to create springboot app and run it. springboot, java  </description>
+      <description>Code repository, Code documentation, and Explanation in README
+hello-world-springboot [springboot, java] return JSON &amp;ldquo;hello world&amp;rdquo; in browser using HTTP GET using springboot, understand how to create springboot app and run it. Learn about how to getting start with springboot</description>
     </item>
     
   </channel>
